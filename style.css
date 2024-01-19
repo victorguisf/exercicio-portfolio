@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{margin:0; padding:0;}
+
+head{
+
+}
+
+body{
+    background-color: #000000;
+    color: #F6F6F6;
+    text-indent: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#main-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px; /* Largura desejada */
+    height: 400px; /* Altura desejada */
+    margin: auto; /* Para centralizar o contêiner na horizontal */
+       
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column; /* Alinha os elementos filhos em uma coluna */
+    align-items: justify; /* Centraliza os elementos filhos horizontalmente */
+    text-align: justify; /* Centraliza o texto dentro do bloco */
+    max-width: 70%;
+    padding: 20px;
+}
+
+.aboutme h1{
+    font-family: Krona One;
+    margin-bottom: 40px;
+}
+
+.aboutme strong{
+    color:#22D4FD;
+}
+
+.aboutme p{
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.links{
+    display: flex; 
+    gap: 15px;
+    margin-top: 50px;
+    
+}
+
+.links a{
+    display: inline-block;
+    padding: 15px 40px;
+    text-decoration: none;
+    background-color: #22D4FD;
+    color: #000000;
+    border-radius: 16px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+
+.links a:link, a:visited, a:hover, a:active{
+    color: #000000;
+}
+
+.links p{
+    border-radius: 16px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+}
+
+img{
+    margin-left: 20px;
+    width: 488px;
+    height: 450px;
+    object-fit: contain;
+}
