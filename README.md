@@ -11,3 +11,4 @@ Este foi um exercício na criação de uma página portfólio disponibilizado pe
 
 - [@victorguisf](https://www.github.com/octokatherine)
 
+Acesse o site [Clicando Aqui](https://victorguisf.github.io/exercicio-portfolio/)!
